@@ -1,8 +1,10 @@
 # Property-Based Testing Playground
 
-This repository is a playground for property-based testing.
+This is a playground for property-based testing.
 The exercises are meant to help you get to know a PBT framework
     and can be repeated with any language / framework combination.
+This repository currently contains solutions in:
+* [`kotest` with Kotlin](./kotest)
 
 ## Exercise 1: `min` and `max`
 
@@ -16,8 +18,6 @@ Verify the following properties:
 2. Given any two integers `a` and `b`, `max(a, b)` should equal `max(b, a)`.
 3. Given any two integers `a` and `b`, if  `min(a, b)` returns `a`, then `max(a, b)` should return `b`.
 
-*The Kotest example is available [here](./src/test/kotlin/com/sarajuhosova/pbt/MinMaxTest.kt).*
-
 ## Exercise 2: Reverse
 
 Next, implement the holy grail of property-based testing examples: reversing a list.
@@ -29,8 +29,6 @@ Verify the following properties:
 3. The length of a reversed list is the same as the length of the original list.
 
 Try populating the generated lists with different types of elements for each property.
-   
-*The Kotest example is available [here](./src/test/kotlin/com/sarajuhosova/pbt/ReverseTest.kt).*
 
 ## Exercise 3: Poker
 
@@ -56,5 +54,3 @@ Verify the following properties:
 8. Each hand has 5 cards.
 9. Each hand has 5 *unique* cards.
 10. No hands shared cards.
-
-*The Kotest example is available [here](./src/test/kotlin/com/sarajuhosova/pbt/poker/DeckTest.kt).*
