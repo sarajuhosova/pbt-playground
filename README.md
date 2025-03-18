@@ -1,7 +1,7 @@
 # Property-Based Testing Playground
 
-This repository is a playground for property-based testing in Kotlin using the [Kotest](https://kotest.io/) framework.
-The intention of this repository is to get to know a PBT framework
+This repository is a playground for property-based testing.
+The exercises are meant to help you get to know a PBT framework
     and can be repeated with any language / framework combination.
 
 ## Exercise 1: `min` and `max`
