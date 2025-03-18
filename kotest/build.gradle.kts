@@ -16,8 +16,6 @@ dependencies {
     testImplementation("io.kotest:kotest-runner-junit5:$kotest")
     testImplementation("io.kotest:kotest-assertions-core:$kotest")
     testImplementation("io.kotest:kotest-property:$kotest")
-
-    testImplementation("org.assertj:assertj-core:3.27.3")
 }
 
 tasks.withType<Test>().configureEach {
