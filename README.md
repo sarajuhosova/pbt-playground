@@ -30,7 +30,12 @@ Verify the following properties:
 
 Try populating the generated lists with different types of elements for each property.
 
-## Exercise 3: Poker
+## Exercise 3: Sort = Sort?
+
+Choose two types of sort algorithms (e.g., merge sort and quick sort), and verify that they always produce the same output.
+You can implement one or both on your own, or use library implementations.
+
+## Exercise 4: Poker
 
 *inspired by: https://johanneslink.net/property-based-testing-in-kotlin/#the-poker-domain*
 
