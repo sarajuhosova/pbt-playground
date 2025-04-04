@@ -1,4 +1,4 @@
-package com.sarajuhosova.pbt
+package com.sarajuhosova.pbt.reverse
 
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.property.Arb

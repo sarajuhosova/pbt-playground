@@ -1,6 +1,5 @@
-package com.sarajuhosova.pbt
+package com.sarajuhosova.pbt.sort
 
-import com.sarajuhosova.pbt.poker.Deck
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.property.Arb
 import io.kotest.property.arbitrary.*

@@ -1,4 +1,4 @@
-package com.sarajuhosova.pbt
+package com.sarajuhosova.pbt.minmax
 
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.property.forAll

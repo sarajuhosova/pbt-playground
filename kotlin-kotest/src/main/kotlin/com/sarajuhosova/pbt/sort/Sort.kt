@@ -1,4 +1,4 @@
-package com.sarajuhosova.pbt
+package com.sarajuhosova.pbt.sort
 
 fun <T : Comparable<T>> List<T>.insertionSorted(): List<T> {
     if (this.isEmpty()) return emptyList()
