@@ -5,7 +5,7 @@ proptest! {
   #[test]
   fn test1(list: Vec<i32>) {
     let mut sorted_1 = list.clone();
-    let mut sorted_2 = list.clone();
+    let mut sorted_2 = list;
 
     mergesort(&mut sorted_1);
     quicksort(&mut sorted_2);
@@ -17,7 +17,7 @@ proptest! {
   #[test]
   fn test2(list: Vec<f64>) {
     let mut sorted_1 = list.clone();
-    let mut sorted_2 = list.clone();
+    let mut sorted_2 = list;
 
     mergesort(&mut sorted_1);
     quicksort(&mut sorted_2);
@@ -29,7 +29,7 @@ proptest! {
   #[test]
   fn test3(list: Vec<String>) {
     let mut sorted_1 = list.clone();
-    let mut sorted_2 = list.clone();
+    let mut sorted_2 = list;
 
     mergesort(&mut sorted_1);
     quicksort(&mut sorted_2);
