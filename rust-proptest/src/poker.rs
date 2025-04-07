@@ -8,7 +8,6 @@ use rand::{SeedableRng, rngs::StdRng, seq::SliceRandom};
 #[cfg(test)]
 use std::collections::HashSet;
 
-
 proptest! {
   // A deck has 52 cards -> Verified by the type system because of the `FullDeck` type.
   // We instead test that it never crashes!
