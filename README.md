@@ -5,6 +5,7 @@ The exercises are meant to help you get to know a PBT framework
     and can be repeated with any language / framework combination.
 This repository currently contains solutions in:
 * [`kotest` with Kotlin](./kotlin-kotest)
+* [`proptest` with Rust](./rust-proptest)
 
 ## Exercise 1: `min` and `max`
 
@@ -44,8 +45,8 @@ A deck consists of 52 cards, each card having
     a suit (Spades, Diamonds, Clubs, Hearts) and
     a rank (2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace).
 
-Next define, a `deal(players: Int): [[Card]]` function on this data structure which
-* takes the number of players dealing the cards and
+Next, define a `deal(players: Int): [[Card]]` function on this data structure which
+* takes the number of players to whom cards are being dealt and
 * returns a list of lists of cards, where each list of cards represents the 5 cards dealt to a player.
 
 Verify the following properties:
@@ -58,4 +59,4 @@ Verify the following properties:
 7. Dealing to `X` players leaves `52 - 5X` cards in the deck.
 8. Each hand has 5 cards.
 9. Each hand has 5 *unique* cards.
-10. No hands shared cards.
+10. No hands share cards.
