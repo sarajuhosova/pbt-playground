@@ -1,2 +1,3 @@
 .hypothesis/
 Pipfile.lock
+.pytest_cache/
