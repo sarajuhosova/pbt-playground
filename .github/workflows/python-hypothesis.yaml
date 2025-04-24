@@ -1,0 +1,40 @@
+name: Build Python Project
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - .github/workflows/python-hypothesis.ymal
+      - python-hypothesis/**
+  pull_request:
+    branches:
+      - master
+    paths:
+      - .github/workflows/python-hypothesis.ymal
+      - python-hypothesis/**
+
+defaults: 
+  run:
+    working-directory: python-hypothesis
+
+jobs:  
+  build:
+    name: 'Build'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v4
+      - name: 'Set up Python 3.13'
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+          cache: "pipenv"
+      - name: 'Install pipenv'
+        run: |
+          python -m pip install --upgrade pip
+          pip install pipenv
+      - name: 'Install dependencies'
+        run: pipenv install --dev
+      - name: 'Run tests'
+        run: pipenv run pytest

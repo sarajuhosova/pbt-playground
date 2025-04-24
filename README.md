@@ -4,6 +4,7 @@ This is a playground for property-based testing.
 The exercises are meant to help you get to know a PBT framework
     and can be repeated with any language / framework combination.
 This repository currently contains solutions in:
+* [`hypothesis` with Python](./python-hypothesis) 
 * [`kotest` with Kotlin](./kotlin-kotest)
 * [`proptest` with Rust](./rust-proptest)
 
