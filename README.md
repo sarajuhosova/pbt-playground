@@ -7,6 +7,7 @@ This repository currently contains solutions in:
 * [`hypothesis` with Python](./python-hypothesis) 
 * [`kotest` with Kotlin](./kotlin-kotest)
 * [`proptest` with Rust](./rust-proptest)
+* [`quickcheck` with Rust](./rust-quickcheck)
 
 ## Exercise 1: `min` and `max`
 
