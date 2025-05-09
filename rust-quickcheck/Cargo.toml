@@ -1,0 +1,8 @@
+[package]
+name = "rust-quickcheck"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+quickcheck = "1"
+quickcheck_macros = "1"
